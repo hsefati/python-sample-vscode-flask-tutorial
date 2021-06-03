@@ -30,4 +30,8 @@ steps:
     sudo npm install -g newman
   workingDirectory: $(System.DefaultWorkingDirectory)
   displayName: 'Install Newman Runner'
+  
+- script: |
+  newman run StarterAPIs.json
+displayName: 'Run Newman'
  
