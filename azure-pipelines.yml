@@ -32,6 +32,6 @@ steps:
   displayName: 'Install Newman Runner'
   
 - script: |
-  newman run StarterAPIs.json
-displayName: 'Run Newman'
+    newman run StarterAPIs.json
+  displayName: 'Run Newman'
  
